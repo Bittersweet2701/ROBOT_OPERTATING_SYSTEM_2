@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.033s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.224s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.225s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.557s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.589s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.800s] -- Found bumperbot_msgs: 0.0.0 (/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[0.815s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.869s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.869s] -- Configured cppcheck include dirs: /home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/include
+[0.869s] -- Configured cppcheck exclude dirs and/or files: 
+[0.869s] -- Added test 'lint_cmake' to check CMake code style
+[0.870s] -- Added test 'uncrustify' to check C / C++ code style
+[0.870s] -- Configured uncrustify additional arguments: 
+[0.871s] -- Added test 'xmllint' to check XML markup files
+[0.871s] -- Configuring done
+[0.894s] -- Generating done
+[0.897s] -- Build files have been written to: /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples
+[0.925s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.925s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.925s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.925s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.926s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.938s] [  8%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[0.945s] [ 33%] Built target simple_parameter
+[0.945s] [ 41%] Built target simple_turtlesim_kinematics
+[0.947s] [ 58%] Built target simple_publisher
+[0.948s] [ 91%] Built target simple_tf_kinematics
+[0.949s] [ 91%] Built target simple_subscriber
+[1.144s] [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_msgs/srv/AddTwoInt.srv: No such file or directory
+[1.144s]     3 | #include [01;31m[K<bumperbot_msgs/srv/AddTwoInt.srv>[m[K
+[1.144s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.144s] compilation terminated.
+[1.147s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:76: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+[1.148s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/simple_service_server.dir/all] Error 2
+[1.148s] gmake: *** [Makefile:146: all] Error 2
+[1.150s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12

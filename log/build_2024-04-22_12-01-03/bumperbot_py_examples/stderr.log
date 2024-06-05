@@ -1,0 +1,4 @@
+/home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_server.py:13: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().info("New Request received a = %s and b = %s" (req.a, req.b))
+/home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_server.py:15: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().info("Returning sum value: %s" (res.sum))

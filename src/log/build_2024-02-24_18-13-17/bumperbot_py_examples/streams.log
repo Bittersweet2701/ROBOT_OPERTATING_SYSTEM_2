@@ -1,0 +1,43 @@
+[0.656s] Invoking command in '/home/thinhcuong/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed
+[0.835s] running egg_info
+[0.836s] creating ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[0.836s] writing ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.836s] writing dependency_links to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.836s] writing entry points to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.836s] writing requirements to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.836s] writing top-level names to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.836s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.837s] reading manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.838s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.838s] running build
+[0.838s] running build_py
+[0.838s] creating /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build
+[0.838s] creating /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib
+[0.838s] creating /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.838s] copying bumperbot_py_examples/__init__.py -> /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.839s] copying bumperbot_py_examples/simple_subscriber.py -> /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.839s] copying bumperbot_py_examples/simple_publisher.py -> /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.839s] running install
+[0.839s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.839s]   warnings.warn(
+[0.839s] running install_lib
+[0.839s] creating /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.840s] copying /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.840s] copying /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.840s] copying /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.840s] byte-compiling /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.840s] byte-compiling /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.840s] byte-compiling /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.841s] running install_data
+[0.841s] creating /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index
+[0.841s] creating /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index
+[0.841s] creating /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.841s] copying resource/bumperbot_py_examples -> /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.841s] copying package.xml -> /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.841s] running install_egg_info
+[0.843s] Copying ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.843s] running install_scripts
+[0.859s] Installing simple_publisher script to /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.859s] Installing simple_subscriber script to /home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.859s] writing list of installed files to '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/install.log'
+[0.881s] Invoked command in '/home/thinhcuong/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/home/thinhcuong/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/thinhcuong/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed

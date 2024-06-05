@@ -1,0 +1,34 @@
+[0.017s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.070s] [ 20%] Built target simple_tf_kinematics
+[0.070s] [ 40%] Built target simple_subscriber
+[0.071s] [ 60%] Built target simple_publisher
+[0.072s] [100%] Built target simple_parameter
+[0.074s] [100%] Built target simple_turtlesim_kinematics
+[0.095s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.131s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples
+[0.139s] -- Install configuration: ""
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.140s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[0.141s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[0.141s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.141s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.141s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.142s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.142s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.143s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.143s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.143s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.145s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples

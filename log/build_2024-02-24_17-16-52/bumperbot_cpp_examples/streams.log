@@ -1,0 +1,31 @@
+[0.100s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[3.741s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[3.904s] [ 75%] Built target simple_publisher
+[6.564s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[6.838s] [100%] Built target simple_subscriber
+[6.847s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[6.875s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples
+[6.882s] -- Install configuration: ""
+[6.883s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[6.885s] -- Set runtime path of "/home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[6.886s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[6.890s] -- Set runtime path of "/home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[6.891s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[6.892s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[6.892s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[6.892s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[6.892s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[6.892s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[6.892s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[6.892s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[6.894s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples

@@ -1,0 +1,10 @@
+[0.016s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[0.033s] [31mCMake Error at CMakeLists.txt:24:
+[0.033s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.033s]   "install{".
+[0.033s] 
+[0.033s] [0m
+[0.033s] -- Configuring incomplete, errors occurred!
+[0.033s] See also "/home/thinhcuong/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeOutput.log".
+[0.034s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.232s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12

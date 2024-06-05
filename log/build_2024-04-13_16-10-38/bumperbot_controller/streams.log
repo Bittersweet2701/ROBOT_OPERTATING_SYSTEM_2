@@ -1,0 +1,57 @@
+[0.017s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[0.039s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[0.138s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.159s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.161s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.166s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.273s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.363s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.367s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.490s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.526s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.584s] -- Looking for pthread.h
+[0.677s] -- Looking for pthread.h - found
+[0.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.746s] -- Found Threads: TRUE  
+[0.915s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.972s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.972s] -- Configured cppcheck include dirs: /home/thinhcuong/bumperbot_ws/src/bumperbot_controller/include
+[0.972s] -- Configured cppcheck exclude dirs and/or files: 
+[0.973s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.973s] -- Added test 'lint_cmake' to check CMake code style
+[0.973s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.974s] -- Added test 'uncrustify' to check C / C++ code style
+[0.974s] -- Configured uncrustify additional arguments: 
+[0.974s] -- Added test 'xmllint' to check XML markup files
+[0.975s] -- Configuring done
+[0.984s] -- Generating done
+[0.986s] -- Build files have been written to: /home/thinhcuong/bumperbot_ws/build/bumperbot_controller
+[1.019s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.028s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.256s] running egg_info
+[1.257s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.257s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.257s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.259s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.260s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.290s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[4.787s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+[4.788s]                  from [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:7[m[K,
+[4.788s]                  from [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[4.788s] [01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:332:35:[m[K [01;35m[Kwarning: [m[Kinline function ‘[01m[Kconst Eigen::Inverse<Derived> Eigen::MatrixBase<Derived>::inverse() const [with Derived = Eigen::Matrix<double, 2, 2>][m[K’ used but never defined
+[4.788s]   332 |     inline const Inverse<Derived> [01;35m[Kinverse[m[K() const;
+[4.788s]       |                                   [01;35m[K^~~~~~~[m[K
+[7.698s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[7.937s] /usr/bin/ld: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: in function `SimpleController::VelCallback(geometry_msgs::msg::TwistStamped_<std::allocator<void> > const&)':
+[7.937s] simple_controller.cpp:(.text+0x1157): undefined reference to `Eigen::MatrixBase<Eigen::Matrix<double, 2, 2, 0, 2, 2> >::inverse() const'
+[7.982s] collect2: error: ld returned 1 exit status
+[7.983s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:167: simple_controller] Error 1
+[7.984s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/simple_controller.dir/all] Error 2
+[7.984s] gmake: *** [Makefile:146: all] Error 2
+[7.986s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12

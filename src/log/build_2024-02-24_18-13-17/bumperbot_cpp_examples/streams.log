@@ -1,0 +1,73 @@
+[0.095s] Invoking command in '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.534s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.586s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.595s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.701s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.799s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.824s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.876s] -- Looking for pthread.h
+[0.941s] -- Looking for pthread.h - found
+[0.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.006s] -- Found Threads: TRUE  
+[1.133s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.190s] -- Configured cppcheck include dirs: 
+[1.190s] -- Configured cppcheck exclude dirs and/or files: 
+[1.190s] -- Added test 'lint_cmake' to check CMake code style
+[1.191s] -- Added test 'uncrustify' to check C / C++ code style
+[1.191s] -- Configured uncrustify additional arguments: 
+[1.192s] -- Added test 'xmllint' to check XML markup files
+[1.193s] -- Configuring done
+[1.202s] -- Generating done
+[1.204s] -- Build files have been written to: /home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples
+[1.211s] Invoked command in '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples
+[1.212s] Invoking command in '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples -- -j12 -l12
+[1.255s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.255s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[4.359s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[4.502s] [ 75%] Built target simple_publisher
+[7.133s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[7.381s] [100%] Built target simple_subscriber
+[7.391s] Invoked command in '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples -- -j12 -l12
+[7.418s] Invoking command in '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples
+[7.425s] -- Install configuration: ""
+[7.425s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[7.426s] -- Set runtime path of "/home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[7.427s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[7.431s] -- Set runtime path of "/home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[7.431s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[7.431s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[7.431s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[7.431s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[7.431s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[7.432s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[7.433s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[7.433s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[7.433s] -- Installing: /home/thinhcuong/bumperbot_ws/src/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[7.435s] Invoked command in '/home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/src/build/bumperbot_cpp_examples

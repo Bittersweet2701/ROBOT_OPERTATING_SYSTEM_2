@@ -1,0 +1,11 @@
+[01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTFKinematics::SimpleTFKinematics(const string&)[m[K’:
+[01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   14 |     [01;31m[Ktf_buffer_[m[K = std::make_unique<tf2_ros::Buffer> (get_clock());
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kbool SimpleTFKinematics::getTransformCallback(std::shared_ptr<bumperbot_msgs::srv::GetTransform_Request_<std::allocator<void> > >, std::shared_ptr<bumperbot_msgs::srv::GetTransform_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:69:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   69 |         request_transform = [01;31m[Ktf_buffer_[m[K->lookupTransform(req->frame_id, req->child_frame_id, tf2::TimePointZero);
+      |                             [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

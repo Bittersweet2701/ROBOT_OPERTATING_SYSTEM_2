@@ -1,0 +1,49 @@
+[0.039s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs -- -j12 -l12
+[0.095s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.367s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.423s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.436s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.626s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.639s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.128s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.128s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.129s]   bumperbot_msgs --arguments-file
+[1.129s]   /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter__arguments__bumperbot_msgs.json
+[1.129s]   --output-dir
+[1.129s]   /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs
+[1.130s]   --output-file
+[1.130s]   /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_adapter/bumperbot_msgs.idls)
+[1.130s]   returned error code 1:
+[1.130s] 
+[1.131s]   Traceback (most recent call last):
+[1.131s] 
+[1.131s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.131s]       return _run_code(code, main_globals, None,
+[1.132s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.132s]       exec(code, run_globals)
+[1.132s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.132s]       sys.exit(main())
+[1.132s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.133s]       abs_idl_file = convert_to_idl(
+[1.133s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.133s]       return convert_srv_to_idl(
+[1.133s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.133s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.134s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 850, in parse_service_string
+[1.134s]       raise InvalidServiceSpecification(
+[1.134s] 
+[1.134s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[1.134s]   '---' between request and response
+[1.135s] 
+[1.135s] Call Stack (most recent call first):
+[1.135s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.135s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.136s] 
+[1.136s] [0m
+[1.136s] -- Configuring incomplete, errors occurred!
+[1.136s] See also "/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/CMakeFiles/CMakeOutput.log".
+[1.145s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.150s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs -- -j12 -l12

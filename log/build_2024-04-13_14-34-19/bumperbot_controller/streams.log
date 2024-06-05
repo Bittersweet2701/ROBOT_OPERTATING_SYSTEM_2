@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[0.040s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[0.148s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.175s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.343s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.343s]   ament_python_install_package() the Python package folder
+[0.343s]   '/home/thinhcuong/bumperbot_ws/src/bumperbot_controller/bumperbot_controller'
+[0.344s]   doesn't contain an '__init__.py' file
+[0.344s] Call Stack (most recent call first):
+[0.344s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.344s]   CMakeLists.txt:14 (ament_python_install_package)
+[0.344s] 
+[0.344s] [0m
+[0.344s] -- Configuring incomplete, errors occurred!
+[0.344s] See also "/home/thinhcuong/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeOutput.log".
+[0.350s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.352s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12

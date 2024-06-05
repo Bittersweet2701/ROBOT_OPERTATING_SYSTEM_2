@@ -1,0 +1,31 @@
+[0.601s] Invoking command in '/home/thinhcuong/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.811s] running egg_info
+[0.812s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.812s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.812s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.812s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.814s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.817s] copying bumperbot_py_examples/simple_tf_kinematics.py -> /home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.817s] running install
+[0.817s] running install_lib
+[0.818s] copying /home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_tf_kinematics.py -> /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.818s] byte-compiling /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc
+[0.819s] running install_data
+[0.819s] copying package.xml -> /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.820s] running install_egg_info
+[0.822s] removing '/home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.822s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.823s] running install_scripts
+[0.842s] Installing simple_parameter script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.842s] Installing simple_publisher script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.842s] Installing simple_service_client script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.843s] Installing simple_service_server script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.843s] Installing simple_subscriber script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.843s] Installing simple_tf_kinematics script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.843s] Installing simple_turtlesim_kinematics script to /home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.843s] writing list of installed files to '/home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[0.876s] Invoked command in '/home/thinhcuong/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/thinhcuong/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

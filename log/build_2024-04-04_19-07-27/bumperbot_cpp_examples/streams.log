@@ -1,0 +1,14 @@
+[0.015s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.066s] [ 50%] Built target simple_publisher
+[0.066s] [ 50%] Built target simple_parameter
+[0.066s] [ 75%] Built target simple_subscriber
+[0.080s] [ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[0.285s] [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmath.hpp: No such file or directory
+[0.285s]     2 | #include [01;31m[K<math.hpp>[m[K
+[0.285s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.285s] compilation terminated.
+[0.289s] gmake[2]: *** [CMakeFiles/simple_turtlesim_kinematics.dir/build.make:76: CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o] Error 1
+[0.291s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_turtlesim_kinematics.dir/all] Error 2
+[0.291s] gmake: *** [Makefile:146: all] Error 2
+[0.302s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12

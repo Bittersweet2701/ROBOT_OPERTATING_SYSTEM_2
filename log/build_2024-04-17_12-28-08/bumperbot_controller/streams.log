@@ -1,0 +1,53 @@
+[0.017s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.072s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.284s] running egg_info
+[0.285s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.285s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.286s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.288s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.289s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.330s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[7.244s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[7.609s] [100%] Built target simple_controller
+[7.619s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[7.645s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_controller
+[7.651s] -- Install configuration: ""
+[7.652s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[7.652s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[7.652s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[7.652s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[7.652s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.652s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[7.652s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.652s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[7.652s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[7.652s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[7.676s] Listing '/home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[7.676s] Compiling '/home/thinhcuong/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[7.679s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/include/include
+[7.679s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[7.679s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[7.680s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[7.686s] -- Set runtime path of "/home/thinhcuong/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[7.686s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[7.686s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[7.686s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[7.686s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[7.686s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[7.687s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[7.687s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[7.688s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[7.688s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[7.689s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_controller

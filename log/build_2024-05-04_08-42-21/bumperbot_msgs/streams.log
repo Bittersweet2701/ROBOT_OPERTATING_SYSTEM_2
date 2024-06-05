@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs -- -j12 -l12
+[0.035s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.141s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.161s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.224s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.255s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.475s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.811s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.829s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.829s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.829s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.842s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.849s] -- Added test 'lint_cmake' to check CMake code style
+[0.850s] -- Added test 'xmllint' to check XML markup files
+[0.851s] -- Configuring done
+[0.879s] -- Generating done
+[0.883s] -- Build files have been written to: /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs
+[0.906s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_generator_c[0m
+[0.914s] [  2%] Built target bumperbot_msgs__cpp
+[0.915s] [  5%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[0.924s] [  5%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.924s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_cpp[0m
+[0.924s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.924s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.931s] In file included from [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.h:19[m[K,
+[0.931s]                  from [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c:4[m[K:
+[0.931s] [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__struct.h:47:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/transform_stamped__struct.h: No such file or directory
+[0.931s]    47 | #include [01;31m[K"geometry_msgs/msg/detail/transform_stamped__struct.h"[m[K
+[0.932s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.932s] compilation terminated.
+[0.933s] gmake[2]: *** [CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/build.make:135: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o] Error 1
+[0.933s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all] Error 2
+[0.933s] gmake[1]: *** Waiting for unfinished jobs....
+[0.940s] [  7%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[0.940s] [ 10%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[0.940s] [ 12%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[0.988s] In file included from [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp:7[m[K:
+[0.988s] [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp:149:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/transform_stamped__struct.hpp: No such file or directory
+[0.989s]   149 | #include [01;31m[K"geometry_msgs/msg/detail/transform_stamped__struct.hpp"[m[K
+[0.989s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.989s] compilation terminated.
+[0.990s] gmake[2]: *** [CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/build.make:104: CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o] Error 1
+[0.990s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+[0.991s] In file included from [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.991s]                  from [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp:4[m[K:
+[0.991s] [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp:149:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/transform_stamped__struct.hpp: No such file or directory
+[0.991s]   149 | #include [01;31m[K"geometry_msgs/msg/detail/transform_stamped__struct.hpp"[m[K
+[0.991s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.991s] compilation terminated.
+[0.992s] gmake[2]: *** [CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:112: CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o] Error 1
+[0.992s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.993s] In file included from [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp:12[m[K:
+[0.994s] [01m[K/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp:149:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/transform_stamped__struct.hpp: No such file or directory
+[0.994s]   149 | #include [01;31m[K"geometry_msgs/msg/detail/transform_stamped__struct.hpp"[m[K
+[0.994s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.994s] compilation terminated.
+[0.995s] gmake[2]: *** [CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o] Error 1
+[0.995s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[1.165s] running egg_info
+[1.165s] writing bumperbot_msgs.egg-info/PKG-INFO
+[1.166s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[1.166s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[1.167s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[1.168s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[1.192s] [ 12%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[1.193s] gmake: *** [Makefile:146: all] Error 2
+[1.195s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_msgs -- -j12 -l12

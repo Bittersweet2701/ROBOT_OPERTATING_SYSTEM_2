@@ -1,0 +1,12 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:7[m[K,
+                 from [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:332:35:[m[K [01;35m[Kwarning: [m[Kinline function ‘[01m[Kconst Eigen::Inverse<Derived> Eigen::MatrixBase<Derived>::inverse() const [with Derived = Eigen::Matrix<double, 2, 2>][m[K’ used but never defined
+  332 |     inline const Inverse<Derived> [01;35m[Kinverse[m[K() const;
+      |                                   [01;35m[K^~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: in function `SimpleController::VelCallback(geometry_msgs::msg::TwistStamped_<std::allocator<void> > const&)':
+simple_controller.cpp:(.text+0x1157): undefined reference to `Eigen::MatrixBase<Eigen::Matrix<double, 2, 2, 0, 2, 2> >::inverse() const'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:167: simple_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

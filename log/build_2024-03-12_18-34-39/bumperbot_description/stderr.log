@@ -1,0 +1,12 @@
+[31mCMake Error at /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:139 (add_custom_target):
+  add_custom_target cannot create target
+  "bumperbot_description__xacro_auto_generate" because another target with
+  the same name already exists.  The existing target is a custom target
+  created in source directory
+  "/home/thinhcuong/bumperbot_ws/src/bumperbot_description".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (xacro_add_files)
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

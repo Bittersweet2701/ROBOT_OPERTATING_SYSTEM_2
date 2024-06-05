@@ -1,0 +1,62 @@
+[0.008s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.035s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.179s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.248s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.249s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.556s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.688s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.726s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.991s] -- Found bumperbot_msgs: 0.0.0 (/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[1.038s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.093s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.093s] -- Configured cppcheck include dirs: /home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/bumperbot_msgs/srv/AddTwoInt;/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/bumperbot_msgs/srv/GetTransform;/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/include
+[1.094s] -- Configured cppcheck exclude dirs and/or files: 
+[1.094s] -- Added test 'lint_cmake' to check CMake code style
+[1.095s] -- Added test 'uncrustify' to check C / C++ code style
+[1.095s] -- Configured uncrustify additional arguments: 
+[1.095s] -- Added test 'xmllint' to check XML markup files
+[1.096s] -- Configuring done
+[1.122s] -- Generating done
+[1.124s] -- Build files have been written to: /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[1.180s] [  7%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.180s] [ 14%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.180s] [ 21%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[1.181s] [ 28%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.181s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[1.182s] [ 42%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.185s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[1.541s] In file included from [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[1.541s] [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_msgs/srv/get_transform.hpp: No such file or directory
+[1.541s]    16 | #include [01;31m[K<bumperbot_msgs/srv/get_transform.hpp>[m[K
+[1.541s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.542s] compilation terminated.
+[1.548s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[1.548s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[1.548s] gmake[1]: *** Waiting for unfinished jobs....
+[4.331s] [ 57%] [32m[1mLinking CXX executable simple_parameter[0m
+[4.446s] [ 57%] Built target simple_parameter
+[4.520s] [ 64%] [32m[1mLinking CXX executable simple_service_client[0m
+[4.661s] [ 64%] Built target simple_service_client
+[4.859s] [ 71%] [32m[1mLinking CXX executable simple_service_server[0m
+[4.994s] [ 71%] Built target simple_service_server
+[5.352s] [ 78%] [32m[1mLinking CXX executable simple_publisher[0m
+[5.505s] [ 78%] Built target simple_publisher
+[7.989s] [ 85%] [32m[1mLinking CXX executable simple_subscriber[0m
+[8.216s] [ 92%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[8.253s] [ 92%] Built target simple_subscriber
+[8.537s] [ 92%] Built target simple_turtlesim_kinematics
+[8.538s] gmake: *** [Makefile:146: all] Error 2
+[8.540s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12

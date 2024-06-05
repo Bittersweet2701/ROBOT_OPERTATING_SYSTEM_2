@@ -1,0 +1,8 @@
+[0.014s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.060s] [ 50%] Built target simple_parameter
+[0.060s] [ 50%] Built target simple_publisher
+[0.060s] [ 75%] Built target simple_subscriber
+[0.068s] [ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[5.932s] [100%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[6.210s] [100%] Built target simple_turtlesim_kinematics

@@ -1,0 +1,25 @@
+[0.102s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_description -- -j12 -l12
+[0.119s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.229s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.229s] -- xacro: determining deps for: urdf/bumperbot.urdf.xacro ...
+[0.287s] -- xacro: determining deps for: urdf/bumperbot.urdf.xacro ...
+[0.355s] [31mCMake Error at /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:139 (add_custom_target):
+[0.355s]   add_custom_target cannot create target
+[0.356s]   "bumperbot_description__xacro_auto_generate" because another target with
+[0.356s]   the same name already exists.  The existing target is a custom target
+[0.356s]   created in source directory
+[0.356s]   "/home/thinhcuong/bumperbot_ws/src/bumperbot_description".  See
+[0.356s]   documentation for policy CMP0002 for more details.
+[0.356s] Call Stack (most recent call first):
+[0.356s]   CMakeLists.txt:12 (xacro_add_files)
+[0.356s] 
+[0.356s] [0m
+[0.356s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.412s] -- Added test 'lint_cmake' to check CMake code style
+[0.412s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.413s] -- Added test 'xmllint' to check XML markup files
+[0.414s] -- Configuring incomplete, errors occurred!
+[0.414s] See also "/home/thinhcuong/bumperbot_ws/build/bumperbot_description/CMakeFiles/CMakeOutput.log".
+[0.417s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.421s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_description -- -j12 -l12

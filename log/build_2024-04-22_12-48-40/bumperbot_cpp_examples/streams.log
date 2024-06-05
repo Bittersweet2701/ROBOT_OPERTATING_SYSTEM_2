@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.063s] [ 50%] Built target simple_tf_kinematics
+[0.063s] [ 50%] Built target simple_subscriber
+[0.063s] [ 50%] Built target simple_turtlesim_kinematics
+[0.064s] [ 66%] Built target simple_publisher
+[0.067s] [ 83%] Built target simple_parameter
+[0.074s] [ 91%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[2.171s] [100%] [32m[1mLinking CXX executable simple_service_server[0m
+[2.237s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.237s] (.text+0x1b): undefined reference to `main'
+[2.241s] collect2: error: ld returned 1 exit status
+[2.242s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:167: simple_service_server] Error 1
+[2.243s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/simple_service_server.dir/all] Error 2
+[2.243s] gmake: *** [Makefile:146: all] Error 2
+[2.245s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12

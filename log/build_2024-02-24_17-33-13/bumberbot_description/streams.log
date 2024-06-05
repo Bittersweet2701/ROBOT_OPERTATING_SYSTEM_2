@@ -1,0 +1,36 @@
+[0.136s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumberbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumberbot_description -- -j12 -l12
+[0.156s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.270s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.335s] -- Added test 'lint_cmake' to check CMake code style
+[0.337s] -- Added test 'xmllint' to check XML markup files
+[0.337s] -- Configuring done
+[0.341s] -- Generating done
+[0.342s] -- Build files have been written to: /home/thinhcuong/bumperbot_ws/build/bumberbot_description
+[0.396s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumberbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumberbot_description -- -j12 -l12
+[0.425s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumberbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumberbot_description
+[0.433s] -- Install configuration: ""
+[0.433s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes
+[0.433s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes/imu_link.STL
+[0.433s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes/caster_rear_link.STL
+[0.434s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes/wheel_left_link.STL
+[0.436s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes/caster_front_link.STL
+[0.436s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes/base_link.STL
+[0.455s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/meshes/wheel_right_link.STL
+[0.457s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/urdf
+[0.457s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/urdf/bumperbot.urdf.xacro
+[0.457s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/ament_index/resource_index/package_run_dependencies/bumberbot_description
+[0.457s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/ament_index/resource_index/parent_prefix_path/bumberbot_description
+[0.457s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/environment/ament_prefix_path.sh
+[0.457s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/environment/ament_prefix_path.dsv
+[0.457s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/environment/path.sh
+[0.458s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/environment/path.dsv
+[0.458s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/local_setup.bash
+[0.459s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/local_setup.sh
+[0.459s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/local_setup.zsh
+[0.459s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/local_setup.dsv
+[0.459s] -- Installing: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/package.dsv
+[0.459s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/ament_index/resource_index/packages/bumberbot_description
+[0.460s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/cmake/bumberbot_descriptionConfig.cmake
+[0.460s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/cmake/bumberbot_descriptionConfig-version.cmake
+[0.460s] -- Up-to-date: /home/thinhcuong/bumperbot_ws/install/bumberbot_description/share/bumberbot_description/package.xml
+[0.487s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumberbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumberbot_description

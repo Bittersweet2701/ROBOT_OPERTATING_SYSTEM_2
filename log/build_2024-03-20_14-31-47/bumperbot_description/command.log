@@ -1,0 +1,4 @@
+Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_description': /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_description -- -j12 -l12
+Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_description' returned '0': /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_description -- -j12 -l12
+Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_description': /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_description
+Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_description' returned '0': /usr/bin/cmake --install /home/thinhcuong/bumperbot_ws/build/bumperbot_description

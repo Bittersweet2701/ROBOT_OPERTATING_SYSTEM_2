@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[ 50%] Built target simple_tf_kinematics
+[ 50%] Built target simple_subscriber
+[ 50%] Built target simple_turtlesim_kinematics
+[ 66%] Built target simple_publisher
+[ 83%] Built target simple_parameter
+[ 91%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_service_server[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:167: simple_service_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/simple_service_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

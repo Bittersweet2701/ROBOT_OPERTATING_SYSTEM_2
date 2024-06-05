@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[0.083s] [  7%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[0.089s] [ 35%] Built target simple_publisher
+[0.089s] [ 35%] Built target simple_parameter
+[0.094s] [ 71%] Built target simple_service_server
+[0.094s] [ 71%] Built target simple_turtlesim_kinematics
+[0.097s] [ 64%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[0.099s] [ 85%] Built target simple_subscriber
+[0.345s] In file included from [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:1[m[K:
+[0.345s] [01m[K/home/thinhcuong/bumperbot_ws/src/bumperbot_cpp_examples/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_msgs/srv/get_transform.hpp: No such file or directory
+[0.345s]    16 | #include [01;31m[K<bumperbot_msgs/srv/get_transform.hpp>[m[K
+[0.346s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.346s] compilation terminated.
+[0.349s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[0.349s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[0.350s] gmake[1]: *** Waiting for unfinished jobs....
+[3.019s] [ 92%] [32m[1mLinking CXX executable simple_service_client[0m
+[3.282s] [ 92%] Built target simple_service_client
+[3.284s] gmake: *** [Makefile:146: all] Error 2
+[3.286s] Invoked command in '/home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thinhcuong/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thinhcuong/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12

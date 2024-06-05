@@ -1,0 +1,5 @@
+  File "/home/thinhcuong/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_server.py", line 15
+    self.get_logger().info("Returning sum value: %s" res.sum)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
